@@ -75,24 +75,24 @@ export default function Game() {
             {gameData.name}
           </h1>
           <div className="flex flex-row ">
-            <div className="text-2xl text-center mt-30 mb-10 font-nomal w-[300px] md:w-[200px] md:text-xl">
+            <div className="2xl:text-2xl text-center mt-30 mb-10 font-nomal 2xl:w-[300px] md:w-[200px] md:text-xl">
               Platform:
               <ul className=" text-left ">
                 {getInfo(gameData.platforms, "platforms").map((plat) => {
                   return (
-                    <li className="ml-40 mt-5 text-xl text-violet-600 w-[200px] md:w-[100px] md:ml-20 md:text-lg">
+                    <li className="2xl:ml-40 mt-5 2xl:text-xl text-violet-600 2xl:w-[200px] md:w-[100px] md:ml-20 md:text-lg">
                       {plat}
                     </li>
                   );
                 })}
               </ul>
             </div>
-            <div className="text-2xl text-center ml-20 mt-30 mb-10 font-nomal w-[300px] md:w-[200px] md:text-xl">
+            <div className="2xl:text-2xl text-center ml-20 mt-30 mb-10 font-nomal 2xl:w-[300px] md:w-[200px] md:text-xl">
               Genres:
               <ul className="text-left">
                 {getInfo(gameData.genres, "genres").map((gen) => {
                   return (
-                    <li className="ml-40 mt-5 text-xl text-violet-600 w-[200px] md:w-[100px] md:ml-20 md:text-lg">
+                    <li className="2xl:ml-40 mt-5 text-xl text-violet-600 2xl:w-[200px] md:w-[100px] md:ml-20 md:text-lg">
                       {gen}
                     </li>
                   );
@@ -110,7 +110,7 @@ export default function Game() {
               {gameData.screenshots.map((url, index) => (
                 <SwiperSlide key={index}>
                   <div
-                    className="overflow-hidden lg:h-[300px] lg:w-[600px] lg:ml-52 md:ml-20 md:h-[200px] md:w-[400px]"
+                    className="overflow-hidden 2xl:h-[300px] 2xl:w-[600px] 2xl:ml-52 md:ml-20 md:h-[200px] md:w-[400px]"
                     style={{
                       background: `url(${gameData.screenshots[index]}) center repeat`,
                       backgroundSize: "cover",
@@ -125,7 +125,7 @@ export default function Game() {
         <div className="flex flex-row right-[20%] top-58 fixed items-center md:right-[25%]">
           <p className="  text-2xl font-nomal mr-6">Rating:</p>
           <StarRatings
-            className="absolute right-10"
+            className="absolute right-10 "
             rating={(+gameData.rating / 100) * 5}
             starDimension="40px"
             starSpacing="15px"

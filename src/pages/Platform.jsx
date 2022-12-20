@@ -11,7 +11,7 @@ export default function Platform() {
   }
 
   return (
-    <div className="px-2 py-6 m-8 2xl:h-full xl:h-[80%] bg-white rounded-md mt-10">
+    <div className="px-2 py-6 m-8 h-[80%] 2xl:h-full bg-white rounded-md mt-10">
       <h1 className="text-3xl text-center mt-6 font-bold">
         Tell me your platform!
       </h1>
