@@ -46,7 +46,7 @@ export default function Input() {
   return (
     <div
       className={`px-2 py-6 m-8 mb-0 bg-white rounded-md mt-10 ${
-        !getSuggesstion ? "h-full md:h-[80%]" : ""
+        !getSuggesstion ? "lg:h-full md:h-[80%]" : ""
       }`}
     >
       {getSuggesstion === false ? (

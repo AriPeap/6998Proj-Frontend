@@ -110,7 +110,7 @@ export default function Game() {
               {gameData.screenshots.map((url, index) => (
                 <SwiperSlide key={index}>
                   <div
-                    className="overflow-hidden h-[300px] w-[600px] ml-52 md:ml-20 md:h-[200px] md:w-[400px]"
+                    className="overflow-hidden lg:h-[300px] lg:w-[600px] lg:ml-52 md:ml-20 md:h-[200px] md:w-[400px]"
                     style={{
                       background: `url(${gameData.screenshots[index]}) center repeat`,
                       backgroundSize: "cover",

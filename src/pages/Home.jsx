@@ -4,7 +4,7 @@ import { useNavigate } from "react-router";
 export default function Home() {
   const navigate = useNavigate();
   return (
-    <div className=" px-2 py-6 m-8 h-full md:h-[80%] sm:h-[80%] bg-white rounded-md mt-10">
+    <div className=" px-2 py-6 m-8 lg:h-full md:h-[80%] sm:h-[80%] bg-white rounded-md mt-10">
       <h1 className="text-3xl text-center mt-10 mb-20 font-semibold">
         Wellcome!
       </h1>

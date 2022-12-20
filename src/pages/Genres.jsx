@@ -12,7 +12,7 @@ export default function Genres() {
     }
   }
   return (
-    <div className="px-2 py-6 m-8 h-full md:h-[80%] bg-white rounded-md mt-10">
+    <div className="px-2 py-6 m-8 lg:h-full md:h-[80%] bg-white rounded-md mt-10">
       <h1 className="text-3xl text-center mt-6 font-bold">
         Tell me your genres!
       </h1>
