@@ -24,7 +24,7 @@ function Login() {
   };
 
   return (
-    <div className="px-2 py-6 m-8 h-full bg-white rounded-md mt-10">
+    <div className="px-2 py-6 m-8 h-full bg-white rounded-md mt-10 md:h-[80%]">
       <div className=" items-center flex flex-col mr-auto mt-15">
         <h1 className="text-3xl text-center mt-10 mb-10 font-bold">Sign In</h1>
         <form onSubmit={onSubmit}>
