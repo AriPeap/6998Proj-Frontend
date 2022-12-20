@@ -1,0 +1,46 @@
+[
+    {
+       "id":39,
+       "name":"iOS"
+    },
+    {
+       "id":34,
+       "name":"Android"
+    },
+    {
+       "id":6,
+       "name":"PC (Microsoft Windows)"
+    },
+    {
+       "id":130,
+       "name":"Nintendo Switch"
+    },
+    {
+       "id":11,
+       "name":"Xbox"
+    },
+    {
+       "id":12,
+       "name":"Xbox 360"
+    },
+    {
+       "id":49,
+       "name":"Xbox One"
+    },
+    {
+       "id":41,
+       "name":"Wii U"
+    },
+    {
+       "id":8,
+       "name":"PlayStation 2"
+    },
+    {
+       "id":9,
+       "name":"PlayStation 3"
+    },
+    {
+       "id":48,
+       "name":"PlayStation 4"
+    }
+ ]
